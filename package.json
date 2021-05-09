@@ -1,0 +1,24 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "description": "Task 1 - CLI tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3igrik/rsschool-nodejs.git"
+  },
+  "author": "3igrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3igrik/rsschool-nodejs/issues"
+  },
+  "homepage": "https://github.com/3igrik/rsschool-nodejs#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0"
+  }
+}
