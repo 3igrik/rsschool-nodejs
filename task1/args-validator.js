@@ -45,7 +45,12 @@ function validate() {
   }
 
   if (outputFilePath) {
-    fs.access(outputFilePath, fs.constants.W_OK, err => errorHandler(err));
+    if (fs.existsSync(outputFilePath)) {
+      errorHandler(
+        new Error(`Error: file ${outputFilePath} does not exist`)
+      );
+    }
+    
   } 
 }
 
