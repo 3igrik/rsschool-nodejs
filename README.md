@@ -2,10 +2,11 @@
 
 Caesar cipher: https://en.wikipedia.org/wiki/Caesar_cipher
 
-### Steps to install:
+### Steps to install and use:
 
 1) Open a terminal and type: `git clone https://github.com/3igrik/rsschool-nodejs.git`
 2) Install dependencies, type in terminal: `npm install`
+3) Go to folder *task1*: `cd task1`
 
 ### Application commands:
 
